@@ -33,4 +33,5 @@ static void test()
     Console.WriteLine("Test 2 = " + (Average(ints1) == 1.5));
     Console.WriteLine("Test 3 = " + (Average(ints2) == 3));
     Console.WriteLine("Test 4 = " + (Average(ints3) == 4.5));
+    Console.WriteLine("Test 5 = Should be FALSE: " + (Average(ints3) == 17));
 }
