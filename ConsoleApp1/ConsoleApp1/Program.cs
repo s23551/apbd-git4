@@ -5,6 +5,8 @@ Console.WriteLine("Test2");
 
 Console.WriteLine("Test3");
 
+test();
+
 static double Average(int[] array)
 {
     if (array == null || array.Length < 1)
