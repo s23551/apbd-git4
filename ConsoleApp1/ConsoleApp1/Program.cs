@@ -29,7 +29,7 @@ static double Max(int[] array)
         throw new ArgumentException("Input array incorrect");
     }
 
-    return 0;
+    return array.Max();
 }
 
 static void test()
