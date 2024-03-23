@@ -44,4 +44,10 @@ static void test()
     Console.WriteLine("Test 3 = " + (Average(ints2) == 3));
     Console.WriteLine("Test 4 = " + (Average(ints3) == 4.5));
     Console.WriteLine("Test 5 = Should be FALSE: " + (Average(ints3) == 17));
+    
+    Console.WriteLine("Test 6 = " + (Max(ints) == 5));
+    Console.WriteLine("Test 7 = " + (Max(ints1) == 2));
+    Console.WriteLine("Test 8 = " + (Max(ints2) == 3));
+    Console.WriteLine("Test 9 = " + (Max(ints3) == 5));
+    Console.WriteLine("Test 10 = Should be FALSE: " + (Max(ints) == 1));
 }
