@@ -22,6 +22,16 @@ static double Average(int[] array)
     return sum/array.Length;
 }
 
+static double Max(int[] array)
+{
+    if (array == null || array.Length < 1)
+    {
+        throw new ArgumentException("Input array incorrect");
+    }
+
+    return 0;
+}
+
 static void test()
 {
     int[] ints = { 1, 2, 3, 4, 5, };
