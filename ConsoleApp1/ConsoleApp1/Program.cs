@@ -7,19 +7,19 @@ Console.WriteLine("Test3");
 
 test();
 
-static double Average(int[] array)
+static double Average(int[] ints)
 {
-    if (array == null || array.Length < 1)
+    if (ints == null || ints.Length < 1)
     {
         throw new ArgumentException("Input array incorrect");
     }
     double sum = 0;
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < ints.Length; i++)
     {
-        sum += array[i];
+        sum += ints[i];
     }
 
-    return sum/array.Length;
+    return sum/ints.Length;
 }
 
 static double Max(int[] array)
